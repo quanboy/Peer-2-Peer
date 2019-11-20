@@ -1,0 +1,65 @@
+body {
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#favicon {
+  top: 0;
+  left: 0;
+  transform: translate(40%,10%);
+}
+
+.modal-header, h4, .close {
+    background-color: #0097e6;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+  .modal-footer {
+    background-color: #0097e6;
+}
+
+#container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    border: none;
+}
+#videoElement {
+    width: 100%;
+    height: 375px;
+    background-color: #666;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.nav li {float: right;}
+
+ul.nav li a {
+  display: block;
+  color: #0097e6;
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {background-color: #f3f3f3}
+
+ul.nav li a.active {background-color: #4CAF50;}
+
+ul.nav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.nav li.right, 
+  ul.nav li {float: none;}
+}
